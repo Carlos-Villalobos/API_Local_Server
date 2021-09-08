@@ -7,8 +7,7 @@ const morgan = require('morgan')
 const app = express()
 
 // set port for APP
-let port = 5000
-//SAsaSa
+let port = process.env.PORT || 5000
 
 // Middleware
 app.use(express.json())
