@@ -13,6 +13,10 @@ let port = process.env.PORT || 5000
 app.use(express.json())
 app.use(morgan('dev'))
 
+app.get('/', (req, res) => {
+    res.send("<h1> Hello Class! </h1>")
+})
+
 /*
 NOTA IMPORTANTE:
 Para los get y post solo funcionan los id a partir de 3542517 al 3542521
