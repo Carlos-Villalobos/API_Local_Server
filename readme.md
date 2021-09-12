@@ -8,8 +8,7 @@ NeoWs (Near Earth Object Web Service) is a RESTful web service for near earth As
 Example query
 * **https://api.nasa.gov/neo/rest/v1/neo/3542519?api_key=DEMO_KEY**
 
- 
- 
+
 ## Donki – Interplanetary Shock(IPS)
 The Space Weather Database Of Notifications, Knowledge, Information (DONKI) is a comprehensive on-line tool for space weather forecasters, scientists, and the general space science community. DONKI provides chronicles the daily interpretations of space weather observations, analysis, models, forecasts, and notifications provided by the Space Weather Research Center (SWRC), comprehensive knowledge-base search functionality to support anomaly resolution and space science research, intelligent linkages, relationships, cause-and-effects between space weather activities and comprehensive webservice API access to information stored in DONKI.
 
@@ -17,13 +16,11 @@ Example:
 
 * **https://api.nasa.gov/DONKI/IPS?startDate=yyyy-MM-dd&endDate=yyyy-MM-dd&location=LOCATION&catalog=CATALOG&api_key=DEMO_KEY**
  
- 
 ## Earth
 
 Example query
 
 * **https://api.nasa.gov/planetary/earth/assets?lon=-95.33&lat=29.78&date=2018-01-01&&dim=0.10&api_key=DEMO_KEY**
- 
  
 ## Eonet
 The Earth Observatory Natural Event Tracker (EONET) is a prototype web service with the goal of:
@@ -47,7 +44,6 @@ Example
 
 * **https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=1000&api_key=DEMO_KEY**
    
- 
 Bibliography:
 
 * **https://api.nasa.gov/**
